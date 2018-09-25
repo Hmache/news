@@ -1,0 +1,27 @@
+header {
+  .header-top {
+    background: $black-base;
+    a {
+      color: $white;
+    }
+  }
+  .header-middle {
+    padding: 25px 0;
+    .logo {
+      max-width: 380px;
+    }
+  }
+  .header-bottom {
+    .main-navigation {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      //text-transform: uppercase;
+      border-top: 1px solid $grey;
+      border-bottom: 1px solid $grey;
+      .nav-link {
+        padding: .75rem 1rem;
+        color: $black-base;
+      }
+    }
+  }
+}
